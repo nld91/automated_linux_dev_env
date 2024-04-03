@@ -1,0 +1,7 @@
+---
+- name: Install common software packages
+  package:
+    name:
+      - git
+      - docker
+      - curl

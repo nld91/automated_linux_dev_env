@@ -1,0 +1,10 @@
+---
+- name: Set up an Ubuntu based development environment
+  hosts: all
+  gather_facts: yes
+  become: yes
+  
+  roles:
+    - common
+    - development
+    - extras
